@@ -5,7 +5,7 @@
 #</IfModule>
 
 <IfModule mod_rewrite.c>
-    RewriteEngine on
+    RewriteEngine off
     RewriteRule    ^$    webroot/    [L]
     RewriteRule    (.*) webroot/$1    [L]
 </IfModule>
