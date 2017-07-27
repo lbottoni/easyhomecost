@@ -1,6 +1,6 @@
 <?php
 
-$json = json_decode(file_get_contents("json/carrefour.json"));
+$json = json_decode(file_get_contents("data/carrefour.json"));
 $query = [];
 foreach ($json as $shop)
 	{
